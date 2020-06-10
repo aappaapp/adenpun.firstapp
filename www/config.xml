@@ -6,14 +6,14 @@
         id        = "com.adenpun.firstapp"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>AdenPun FirstApp</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        adenpun.firstapp
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="" email="">
+        AdenPun
     </author>
 
     <!-- Define the main entry-point to the application -->
