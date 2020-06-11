@@ -1,18 +1,15 @@
 {
-  "name": "phonegap-template-hello-world",
+  "name": "AdenPun's FirstApp",
   "version": "4.0.4",
-  "description": "> A Hello World template built with PhoneGap",
+  "description": "> AdenPun's FirstApp",
   "repository": {
     "type": "git",
     "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
   },
-  "author": "PhoneGap Team",
+  "author": "AdenPun",
   "license": "Apache-2.0",
   "keywords": [
-    "ecosystem:phonegap",
-    "ecosystem:cordova",
-    "cordova:template",
-    "phonegap:template"
+    "adenpun:firstapp"
   ],
   "bugs": {
     "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
