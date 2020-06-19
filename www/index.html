@@ -58,15 +58,21 @@
             }
         </style>
         <script>
-            setTimeout(function(){
-                document.addEventListener("offline", onOffline, false);
-                document.addEventListener("online", onOnline, false);
-            }, 5000);
-            function onOffline(){
-                location.href = "offline.html";
-            }
-            function onOnline(){
-                location.replace("youtube.com");
+            function onDeviceReady() {
+                if (history.length > 1) {
+                    navigator.app.exitApp();
+                    return;
+                }
+                
+                //alert(navigator.network.connection.type);
+                if (navigator.network.connection.type === Connection.NONE) {
+                    //location.replace("offline.html");
+                    location.href = "offline.html";
+                } else {
+                    // <!-- Configuration Start: Please customize following configuration -->
+                    location.replace("https://youtube.com");
+                    // <!-- Configuration End -->
+                }
             }
         </script>
     </head>
